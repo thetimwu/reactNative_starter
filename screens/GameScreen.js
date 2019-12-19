@@ -20,9 +20,9 @@ const GameScreen = props => {
   );
 
   return (
-    <View style>
+    <View style={styles.screen}>
       <NumberContainer>{currentGuess}</NumberContainer>
-      <Card>
+      <Card style={styles.buttonContainer}>
         <Button title="LOWER" onPress={() => {}} />
         <Button title="GREATER" onPress={() => {}} />
       </Card>
